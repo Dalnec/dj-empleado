@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/foundation.min.css' %}">
+</head>
+<body>
+    <h1>Resumen Fundation</h1>
+    <div class="grid-x" style="border: 2px solid green;">
+        <h2 class="cell small-12 large-5" style="border: 2px solid red;">Elemento 1</h2>
+        <h2 class="cell large-4" style="border: 2px solid blue;">Elemento 2</h2>
+        <h2 class="cell large-3" style="border: 2px solid yellow;">Elemento 3</h2>
+        <div class="cell large-4 grid-x" style="border: 2px solid purple;">
+            <h4 class="cell large-2">Otro Elemento</h4>
+            <h4 class="cell large-2">Otro Elemento</h4>
+            <h4>Otro Elemento</h4>
+        </div>
+    </div>
+</body>
+</html>
